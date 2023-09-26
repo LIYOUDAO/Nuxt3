@@ -1,0 +1,29 @@
+# 查询
+# POST http://localhost:3000/api/auth/register
+# Content-Type: application/json
+
+# {
+#   "nickname": "haha5",
+#   "phone": "13452510307",
+#   "password": "123456"
+# }
+
+# 登陆请求
+# POST http://localhost:3000/api/auth/login
+# Content-Type: application/json
+
+# {
+#   "phone": "13452510307",
+#   "password": "123456"
+# }
+
+# 创建
+POST http://localhost:3000/api/note/notebook
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTU0NTAwOTQsImRhdGEiOnsiZGF0YSI6eyJ1aWQiOjExfX0sImlhdCI6MTY5NTQ0NjQ5NH0.7eDXknKndJujs_FoTU8mNH0FENFzgAt_tu0WuXJLByg
+
+{
+  "name": "新建文集2"
+}
+
+
